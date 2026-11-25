@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(findViewById(R.id.toolbar));
         RecyclerView recyclerView = findViewById(R.id.recycler_view_lines);
+
         CardSource data = new CardSourceImpl(getResources()).init();
         initRecyclerView(recyclerView, data);
     }

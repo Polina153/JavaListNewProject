@@ -30,7 +30,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         // Через Inflater
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item, parent, false);
-        Log.d(TAG, "onBindViewHolder");
+        Log.d(TAG, "onCreateViewHolder");
         // Здесь можно установить всякие параметры
         return new ViewHolder(v);
 
